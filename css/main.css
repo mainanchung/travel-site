@@ -29,7 +29,7 @@ padding:0 5rem;
     padding-bottom: 1rem ;
     line-height: 1.5rem;
     margin: 1rem 0;
-    font-size: smaller;
+    font-size: 300;
 }
 
 .hero-image{
@@ -43,10 +43,17 @@ padding:0 5rem;
     border-radius: 1rem;
     color: white;
     border: none;
+    display:inline-block;
     text-decoration: none;
+    transition:  .2s ease-in-out;
 }
 
+.hero-btn-link:hover { 
+    background-color: #335576;
+    transform: scale(1.1); }
 
+
+/* recommendations */
 
 .recommend-container{
     padding: 2.5rem 5rem;
@@ -63,29 +70,62 @@ padding:0 5rem;
 
 
 .recommend-eachard__hawaii ,.recommend-eachard__iceland, .recommend-eachard__greece {
-   
     background-size:105%;
     background-repeat: no-repeat;
     background-position: center center;
+    transition:  .3s ease-in-out;
     
 }
 
+
+
 .recommend-card-title{
     position: absolute;
-    right: 0%;
+    top:80%;
+    right: 10%;
     bottom: 0%; 
     text-align:right;
-    padding: 0 1.2rem;
     color: white;
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: block;
+    transition:  .2s ease-in-out;
 }
 
+
+
+
 .recommend-eachard__hawaii{
-    background-image: url(../Assets/Images/hawaii.jpg);   
-}
+    background-image: url(../Assets/Images/hawaii.jpg);}
 
 .recommend-eachard__iceland{
     background-image: url(../Assets/Images/iceland.jpg);
 }
 .recommend-eachard__greece{
     background-image: url(../Assets/Images/greece.jpg);
+}
+
+
+
+
+/* hover test */
+
+
+.eachcard{
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition:  .3s ease-in-out;
+    backface-visibility: hidden;
+}
+
+
+.eachcard:hover {
+    transform: scale(1.1);    
+    background-size: 125%;
+}
+
+.eachcard:hover p{
+    color: #DB7A4E;
 }

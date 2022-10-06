@@ -49,11 +49,33 @@ body{
     margin: 0 1rem;
     text-decoration: none;
     color: black;
+    box-sizing: border-box;
+
  }
 
  .mainNav-link__highlight{
-    border-bottom: 2px #DB7A4E solid;
+    padding: 0 0;
+    margin: 0 1rem;
+    display: inline;
+    border-bottom: 2px #DB7A4E solid; 
  }
+
+      /* main nav hover test   */
+
+      .mainNav-link__highlight:hover{
+        border-bottom:  none;}
+
+      .mainNav-link:after {
+        padding: 0.7rem 0;
+        display:block;
+        content: '';
+        border-bottom: 2px #DB7A4E solid; 
+        transform: scaleX(0);  
+      }
+      .mainNav-link:hover:after { 
+        transform: scaleX(1);
+     }
+
 
 
 /* footer */
@@ -101,6 +123,7 @@ body{
     text-transform: uppercase;
  }
 
+
 /* Card */
 .cards{
     display: flex;
@@ -113,10 +136,10 @@ body{
  .eachcard{
     border-radius: 5px;
     border: rgba(0, 0, 0, 20%) solid ;
-    box-shadow: 0 4px 4px  rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.25rem 0.25rem  rgba(0, 0, 0, 0.5);
     position: relative;
-    min-width: 280px;
-    max-width: 300px;
-    min-height: 400px;
-    max-height: 420px;
+    min-width: 17.5rem;
+    max-width: 18.75rem;
+    min-height: 25rem;
+    max-height: 26.25rem;
  }
