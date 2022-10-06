@@ -4,11 +4,11 @@
     background-position: center center;
 }
 
-.schedule-container__hawaii{background-image: url(/Assets/Images/hawaii.jpg);}
+.schedule-container__hawaii{background-image: url(../Assets/Images/hawaii.jpg);}
 
-.schedule-container__iceland{background-image:url(/Assets/Images/iceland.jpg);}
+.schedule-container__iceland{background-image:url(../Assets/Images/iceland.jpg);}
 
-.schedule-container__greece{background-image: url(/Assets/Images/greece.jpg);}
+.schedule-container__greece{background-image: url(../Assets/Images/greece.jpg);}
 
 .schedule-title{
     font-size: 3rem;

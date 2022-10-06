@@ -80,12 +80,12 @@ padding:0 5rem;
 }
 
 .recommend-eachard__hawaii{
-    background-image: url(/Assets/Images/hawaii.jpg);   
+    background-image: url(../Assets/Images/hawaii.jpg);   
 }
 
 .recommend-eachard__iceland{
-    background-image: url(/Assets/Images/iceland.jpg);
+    background-image: url(../Assets/Images/iceland.jpg);
 }
 .recommend-eachard__greece{
-    background-image: url(/Assets/Images/greece.jpg);
+    background-image: url(../Assets/Images/greece.jpg);
 }
