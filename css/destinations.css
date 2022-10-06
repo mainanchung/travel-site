@@ -1,14 +1,19 @@
 .schedule-container{
-    padding: 5rem 5rem ;
-    background-image: url(/Assets/Images/greece.jpg);
+    padding: 5rem 5rem ;    
     background-size: 100%;
     background-position: center center;
 }
 
+.schedule-container__hawaii{background-image: url(/Assets/Images/hawaii.jpg);}
+
+.schedule-container__iceland{background-image:url(/Assets/Images/iceland.jpg);}
+
+.schedule-container__greece{background-image: url(/Assets/Images/greece.jpg);}
+
 .schedule-title{
     font-size: 3rem;
-    color: white;
-    
+    margin-bottom: 1rem;
+    color: white;  
 }
 
 .schedule-eachard{
@@ -22,9 +27,11 @@
 
 
 .schedule-card-title{
-    margin-top: 0%;
+    margin: 0 0 0.5rem 0;
     border-bottom: 0.2rem solid black;
+    padding:0 4.8rem;
 }
+
 
 .schedule-card-list{
     text-decoration: none;
