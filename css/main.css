@@ -38,6 +38,7 @@ padding:0 5rem;
 }
 
 .hero-btn-link{
+    font-weight: smaller;
     background-color: #DB7A4E;
     padding: 0.5rem 2.2rem;
     border-radius: 1rem;
